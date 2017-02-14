@@ -1,11 +1,11 @@
 {
-	"name": "sample-angular2-project",
+	"name": "sample-project",
 	"version": "1.0.0",
 	"license": "Apache-2.0",
 	"author": {
 		"name": "Joseph Ramirez",
 		"email": "jramirez98@cnm.edu",
-		"url": "https://github.com/JosephBlu/sample-project/tree/master"
+		"url": "https://bootcamp-coders.cnm.edu"
 	},
 	"scripts": {
 		"build": "rimraf public_html/dist && tsc && webpack --config webpack/webpack.live.js --progress --profile --bail",
