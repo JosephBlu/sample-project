@@ -1,0 +1,29 @@
+{
+	"name": "sample-angular2-project",
+	"version": "1.0.0",
+	"license": "Apache-2.0",
+	"author": {
+		"name": "Joseph Ramirez",
+		"email": "jramirez98@cnm.edu",
+		"url": "https://github.com/JosephBlu/sample-project/tree/master"
+	},
+	"scripts": {
+		"build": "rimraf public_html/dist && tsc && webpack --config webpack/webpack.live.js --progress --profile --bail",
+		"postinstall": "typings install"
+	},
+	"repository": {
+		"type": "git",
+		"url":"https://github.com/JosephBlu/sample-project/tree/master"
+	},
+	"devDependencies": {
+		"@angular/common": "2.0.0",
+		"@angular/compiler": "2.0.0",
+		"@angular/core": "2.0.0",
+		"@angular/forms": "2.0.0",
+		"@angular/http": "2.0.0",
+		"@angular/platform-browser": "2.0.0",
+		"@angular/platform-browser-dynamic": "2.0.0",
+		"@angular/router": "3.0.0",
+		"angular2-template-loader": "^0.5.0"
+	}
+}
